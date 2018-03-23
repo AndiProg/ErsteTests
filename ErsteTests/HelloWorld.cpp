@@ -1,12 +1,18 @@
 #include <iostream>
 #include <climits>
+
+
+void doSmth() {
+	std::cout << "Bin in einer Funktion";
+}
+int add(int a, int b) {
+	return a + b;
+}
 int main(){
-	int i = 4;
-	i += 2;
-	std::cout << i << std::endl;
-	std::cout << INT_MAX << std::endl;
-	std::cout << sizeof(int) << std::endl;
-	std::cout << "Test" << std::endl;
+	
+
+	doSmth();
+	std::cout<< add(5, 3);
 	system("pause");
 	return 0;
 }
