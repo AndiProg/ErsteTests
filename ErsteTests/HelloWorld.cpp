@@ -12,7 +12,6 @@ int main(){
 			std::cout << i << std::endl;
 			num++;
 		}
-		i++;
 	}
 	int l;
 	std::cin >> l;
