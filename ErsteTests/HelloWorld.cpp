@@ -5,9 +5,16 @@
 
 
 int main(){
-	
-	std::cout<< add_int(5, 3)<< std::endl;
-	int i;
-	std::cin >> i;
+	int i = 2;
+	int num = 0;
+	while (num<100) {
+		if (is_prime(i)) {
+			std::cout << i << std::endl;
+			num++;
+		}
+		i++;
+	}
+	int l;
+	std::cin >> l;
 	return 0;
 }
