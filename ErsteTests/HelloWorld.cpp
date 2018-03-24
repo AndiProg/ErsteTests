@@ -1,18 +1,13 @@
 #include <iostream>
-#include <climits>
+#include "OwnUtil.h"
 
 
-void doSmth() {
-	std::cout << "Bin in einer Funktion";
-}
-int add(int a, int b) {
-	return a + b;
-}
+
+
 int main(){
 	
-
-	doSmth();
-	std::cout<< add(5, 3);
-	system("pause");
+	std::cout<< add_int(5, 3)<< std::endl;
+	int i;
+	std::cin >> i;
 	return 0;
 }

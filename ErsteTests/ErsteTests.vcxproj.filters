@@ -18,5 +18,13 @@
     <ClCompile Include="HelloWorld.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="OwnUtil.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OwnUtil.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
